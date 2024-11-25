@@ -97,5 +97,11 @@
         }
       }
     }
+<<<<<<< HEAD
+=======
+  },
+  "cli": {
+    "analytics": "bdef739c-fc6a-4a98-8577-2d95cf2e7501"
+>>>>>>> fb3389c (atualização do angular)
   }
 }

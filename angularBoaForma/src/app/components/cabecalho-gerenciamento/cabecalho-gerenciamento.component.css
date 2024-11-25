@@ -1,0 +1,36 @@
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    padding: 0.938rem 0.938rem;
+
+    background: rgb(1,64,145);
+    background: linear-gradient(90deg, rgba(1,64,145,1) 0%, rgba(0,19,43,1) 60%);
+    
+    color: #fff;
+  }
+  
+  .header .logo {
+    height: 40px;
+  }
+  
+  .header-actions {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .action-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .action-item i {
+    font-size: 20px;
+  }
+  
