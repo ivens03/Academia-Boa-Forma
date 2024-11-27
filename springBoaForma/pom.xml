@@ -58,12 +58,12 @@
 			<artifactId>spring-boot-starter-validation</artifactId>
 		</dependency>
 
-		<!--Coloquei agora-->
+		<!--starter web
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
+		-->
 
 	</dependencies>
 
