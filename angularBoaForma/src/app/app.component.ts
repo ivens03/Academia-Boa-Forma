@@ -1,12 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
-<<<<<<< HEAD
-@Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet],
-=======
 // Import de paginas e componentes.
 import { LoginPagesComponent } from "./pages/login-pages/login-pages.component";
 import { HomeAdministracaoPagesComponent } from "./pages/home-administracao-pages/home-administracao-pages.component";
@@ -23,10 +17,10 @@ import { RegistroAlunosPagesComponent } from './pages/registro-alunos-pages/regi
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet, LoginPagesComponent, HomeAdministracaoPagesComponent, RegistroProfessorPagesComponent, GerenciamentoAlunosComponent, HomeProfessorComponent, FichaProntaComponent, FichaPreSetComponent, DemandasComponent,CabecalhoGerenciamentoComponent, RegistroAlunosPagesComponent],
->>>>>>> fb3389c (atualização do angular)
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
+
 export class AppComponent {
   title = 'angularBoaForma';
 }
