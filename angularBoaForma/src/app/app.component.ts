@@ -16,7 +16,19 @@ import { RegistroAlunosPagesComponent } from './pages/registro-alunos-pages/regi
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, LoginPagesComponent, HomeAdministracaoPagesComponent, RegistroProfessorPagesComponent, GerenciamentoAlunosComponent, HomeProfessorComponent, FichaProntaComponent, FichaPreSetComponent, DemandasComponent,CabecalhoGerenciamentoComponent, RegistroAlunosPagesComponent],
+  imports: [
+    RouterOutlet, 
+    LoginPagesComponent, 
+    HomeAdministracaoPagesComponent, 
+    RegistroProfessorPagesComponent, 
+    GerenciamentoAlunosComponent, 
+    HomeProfessorComponent, 
+    FichaProntaComponent, 
+    FichaPreSetComponent, 
+    DemandasComponent,
+    CabecalhoGerenciamentoComponent, 
+    RegistroAlunosPagesComponent
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

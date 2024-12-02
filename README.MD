@@ -1,8 +1,7 @@
-<<<<<<< HEAD
-# OLÁ 
+Angular
 
-=======
-# OLÁ 
+ng g c nome-componente
 
->>>>>>> fb3389c (atualização do angular)
-# Olá novamente
+ng g classe nome-da-class (Não sei para que serve)
+
+ng g servisse (não sei para que serve)
